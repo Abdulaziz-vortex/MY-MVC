@@ -1,0 +1,78 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    position: relative;
+}
+.container{
+    max-width: 1300px !important;
+}
+#header{
+    top: 0px;
+}
+.slider{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+}
+.slider-text{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    text-align: center;
+    z-index: 999;
+}
+.slider-text h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.slider__decore{
+    position: absolute;
+    left: 0%;
+    bottom: 0px;
+}
+.decore{
+    width: 100px;
+}
+.container h2{
+    font-weight: 550;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.text h5{
+    color: #000;
+    font-weight: 550;
+}
+.text p{
+    color: #555;
+    font-size: 15px;
+}
+.slider button{
+
+}
+
+.search{
+    background-color: #8471fd;
+    padding: 20px 0px;
+    position: absolute;
+    top: 100px;
+    z-index: 999;
+    width: 100%;
+}
+.search input{
+    width: 100%;
+    padding: 10px 15px;
+    border:0px;
+    outline: 0px !important;
+    background:rgba(0,0,0,0.09);
+    color: #fff;
+    border-radius: 4px;
+}
+.search input::placeholder{
+    color: #dfdfdf;
+}
